@@ -1,36 +1,219 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 College Discovery Platform
 
-## Getting Started
+A modern and responsive **College Discovery Platform** built using **Next.js 16**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+This platform helps students discover top colleges in India, compare them side-by-side, explore placements, ratings, fees, and much more.
+
+---
+
+# 🚀 Features
+
+✅ Browse Top Colleges  
+✅ Compare Colleges Side-by-Side  
+✅ View Fees, Ratings & Placements  
+✅ Save Colleges  
+✅ Responsive UI Design  
+✅ Dark / Light Theme Toggle  
+✅ Login & Signup Pages  
+✅ Dynamic College Details Page  
+✅ Search & Filter Functionality  
+✅ Modern UI with Tailwind CSS  
+✅ Zustand State Management  
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Next.js 16 | Frontend Framework |
+| React | UI Library |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| next-themes | Dark Mode |
+| Zustand | State Management |
+
+---
+
+# 📂 Folder Structure
+
+```bash
+src/
+│
+├── app/
+│   ├── colleges/
+│   ├── compare/
+│   ├── login/
+│   ├── signup/
+│   └── page.tsx
+│
+├── components/
+│   ├── cards/
+│   ├── navbar/
+│   └── providers/
+│
+├── data/
+├── services/
+├── store/
+└── styles/
+```
+
+---
+
+# 🌙 Dark Mode Support
+
+The application supports:
+
+- ☀️ Light Mode
+- 🌙 Dark Mode
+
+Implemented using:
+
+```bash
+next-themes
+```
+
+---
+
+# 📸 Pages Included
+
+## 🏠 Homepage
+- Hero Section
+- Featured Colleges
+- Modern Responsive Layout
+
+## 🏫 Colleges Page
+- College Cards
+- Search & Filter
+- Save & Compare Options
+
+## 📊 Compare Page
+- Compare Multiple Colleges
+- Fees Comparison
+- Placement Comparison
+- Ratings & Packages
+
+## 🔐 Login Page
+- Responsive Login UI
+- Theme Support
+
+## 📝 Signup Page
+- Signup Form
+- Responsive Design
+- Theme Support
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ayushi826/College-Discovery-Platform.git
+```
+
+Move into the project folder:
+
+```bash
+cd College-Discovery-Platform
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🌐 Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open:
 
-## Learn More
+```bash
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🔧 Important Packages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Install required packages:
 
-## Deploy on Vercel
+```bash
+npm install next-themes zustand
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📌 Future Improvements
+
+- Firebase Authentication
+- Real Database Integration
+- AI College Recommendation System
+- Student Reviews
+- Email Verification
+- Admin Dashboard
+- College Ranking System
+- Authentication with JWT
+
+---
+
+# 👩‍💻 Developer
+
+## Ayushi Srivastava
+
+BCA Student | Aspiring Full Stack Developer
+
+### Interests
+- Full Stack Development
+- Software Engineering
+- AI & Machine Learning
+- Web Development
+
+---
+
+# ⭐ GitHub
+
+If you like this project, give it a ⭐ on GitHub.
+
+Repository:
+
+```bash
+https://github.com/ayushi826/College-Discovery-Platform
+```
+
+---
+
+# 📄 License
+
+This project is made for educational and learning purposes.
+
+---
+
+# 💡 Learning Highlights
+
+While building this project, concepts explored include:
+
+- Next.js App Router
+- Client Components
+- State Management
+- Dynamic Routing
+- Responsive UI Design
+- Theme Switching
+- Git & GitHub Workflow
+- Component Reusability
+
+---
+
+# 🙌 Acknowledgements
+
+Inspired by modern college discovery and education platforms.
+
+Built with ❤️ using Next.js and Tailwind CSS.
