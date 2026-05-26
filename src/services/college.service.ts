@@ -1,18 +1,3 @@
-// ============================================================
-// SERVICES/COLLEGE.SERVICE.TS — Business Logic Layer
-// ============================================================
-// WHY a service layer?
-//   Components should be dumb — they render and handle events.
-//   Business logic (filtering, sorting, pagination) belongs here.
-//   When you replace mock data with a real API, ONLY this file
-//   changes. Components and hooks stay exactly the same.
-//
-// PATTERN: Service functions return Promises even for mock data.
-//   This means switching to fetch() requires no refactoring.
-//
-// INTERVIEW: "I used a service layer to separate concerns.
-//   The UI layer doesn't know or care where data comes from."
-// ============================================================
 
 import { MOCK_COLLEGES } from "@/data/colleges";
 import { College, CollegeFilters, ApiResponse } from "@/types";
