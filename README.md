@@ -78,7 +78,7 @@ next-themes
 
 # 📸 Pages Included
 
-## 🏠 Homepage
+## 🏠 Homepage(Landing page)
 - Hero Section
 - Featured Colleges
 - Modern Responsive Layout
@@ -89,7 +89,7 @@ next-themes
 - Save & Compare Options
 
 ## 📊 Compare Page
-- Compare Multiple Colleges
+- Compare Multiple Colleges(Max:3)
 - Fees Comparison
 - Placement Comparison
 - Ratings & Packages
