@@ -1,6 +1,6 @@
 # 🎓 College Discovery Platform
 
-A modern and responsive **College Discovery and Comparison Platform**  built using **Next.js**, **TypeScript**, and **Tailwind CSS** and **Zustand**.
+A modern and responsive **College Discovery and Comparison Platform**  built using **Next.js**, **TypeScript**, and **Tailwind CSS** and **Zustand**.Deployed using Vercel.
 
 This platform helps students discover top colleges in India, compare them side-by-side, explore placements, ratings, fees, and much more.
 
