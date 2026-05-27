@@ -17,17 +17,14 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 border-b bg-white/80 dark:bg-black/80 backdrop-blur-md">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
+     <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4 px-4 py-4">
         <Link
           href="/"
-          className="text-2xl font-bold text-blue-600"
-        >
+          className="text-xl sm:text-2xl font-bold text-blue-600"        >
           College Discovery Platform
         </Link>
 
-        <div className="flex items-center gap-6">
-
+         <div className="flex flex-wrap items-center gap-3">
           <Link
             href="/"
             className=" border border-gray-300 px-4 py-2 rounded-lg font-medium bg-green-600 text-white hover:bg-pink-400"
