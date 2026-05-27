@@ -47,7 +47,7 @@ export default function ComparePage() {
                   String(college.id)
                 )
               }
-              className="mt-3 text-sm text-red-500 border border-red-500 rounded-full px-3 py-1 hover:bg-red-500 hover:text-white transition"
+              className="mt-3 text-sm text-red-500 bg-white border border-red-500 rounded-full px-3 py-1 hover:bg-red-500 hover:text-white transition"
             >
               Remove
             </button>
