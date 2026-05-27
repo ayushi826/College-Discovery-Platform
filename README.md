@@ -89,7 +89,7 @@ next-themes
 - Save & Compare Options
 
 ## 📊 Compare Page
-- Compare Multiple Colleges(Max:3)
+- Compare Multiple Colleges
 - Fees Comparison
 - Placement Comparison
 - Ratings & Packages
