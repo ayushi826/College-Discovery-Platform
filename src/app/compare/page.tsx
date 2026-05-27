@@ -25,7 +25,7 @@ export default function ComparePage() {
   }
 
   return (
-    <div className="p-6 space-y-6 bg-slate-800">
+    <div className="min-h-screen p-6 space-y-6 bg-white dark:bg-slate-800">
       <h1 className="text-3xl font-bold">
         Compare Colleges
       </h1>
