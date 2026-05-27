@@ -1,24 +1,25 @@
 # 🎓 College Discovery Platform
 
-A modern and responsive **College Discovery Platform** built using **Next.js 16**, **TypeScript**, and **Tailwind CSS**.
+A modern and responsive **College Discovery and Comparison Platform**  built using **Next.js**, **TypeScript**, and **Tailwind CSS** and **Zustand**.
 
 This platform helps students discover top colleges in India, compare them side-by-side, explore placements, ratings, fees, and much more.
 
+LIVE DEMO:
+https://collegediscoveryplatform-five.vercel.app
 ---
 
 # 🚀 Features
 
-✅ Browse Top Colleges  
+✅ Explore Top Colleges  
 ✅ Compare Colleges Side-by-Side  
 ✅ View Fees, Ratings & Placements  
-✅ Save Colleges  
 ✅ Responsive UI Design  
 ✅ Dark / Light Theme Toggle  
 ✅ Login & Signup Pages  
 ✅ Dynamic College Details Page  
 ✅ Search & Filter Functionality  
 ✅ Modern UI with Tailwind CSS  
-✅ Zustand State Management  
+✅ State Management with Zustand 
 
 ---
 
@@ -26,7 +27,7 @@ This platform helps students discover top colleges in India, compare them side-b
 
 | Technology | Usage |
 |------------|-------|
-| Next.js 16 | Frontend Framework |
+| Next.js | Frontend Framework |
 | React | UI Library |
 | TypeScript | Type Safety |
 | Tailwind CSS | Styling |
@@ -51,7 +52,7 @@ src/
 │   ├── cards/
 │   ├── navbar/
 │   └── providers/
-│
+│    
 ├── data/
 ├── services/
 ├── store/
@@ -128,16 +129,6 @@ Run development server:
 
 ```bash
 npm run dev
-```
-
----
-
-# 🌐 Run Locally
-
-Open:
-
-```bash
-http://localhost:3000
 ```
 
 ---
