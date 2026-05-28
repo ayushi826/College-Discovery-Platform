@@ -65,9 +65,10 @@ export default function CollegeCard({ college }: Props) {
           </div>
         </div>
         <button
-              onClick={() =>
+              onClick={() =>{
                  addToComparison(String(college.id))
-                 }
+                 alert("College added to compare page✅")
+                } }
                   className="mt-4 w-full rounded-xl bg-purple-600 py-3 font-semibold text-white hover:bg-purple-700"
                 >  
                 Compare

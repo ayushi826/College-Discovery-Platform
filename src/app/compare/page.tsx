@@ -19,7 +19,7 @@ export default function ComparePage() {
   if (comparedColleges.length === 0) {
     return (
       <div className="p-10 text-center text-xl">
-        No colleges selected for comparison.
+        Please select colleges for comparison!.
       </div>
     );
   }
